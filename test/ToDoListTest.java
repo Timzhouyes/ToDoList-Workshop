@@ -25,7 +25,7 @@ public class ToDoListTest extends TestCase{
 	@Test
 	public void testAddTask() {
 		ToDoList toDoList = new ToDoList();		
-		Task task=new Task("This is a test task for team 2");
+		Task task=new Task("This is a test task");
 		toDoList.addTask(task);
 		try {
 			assertEquals(toDoList.getTask("This is a test task"), task);
