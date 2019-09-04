@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ToDoList Workshop" project="ToDoList Workshop" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="ToDoListTest" time="0.0">
+    <testcase name="testAddTask" classname="ToDoListTest" time="0.0"/>
+    <testcase name="testGetCompletedTasks" classname="ToDoListTest" time="0.0"/>
+    <testcase name="testgetStatus" classname="ToDoListTest" time="0.0"/>
+    <testcase name="testRemoveTask" classname="ToDoListTest" time="0.0"/>
+  </testsuite>
+</testrun>
