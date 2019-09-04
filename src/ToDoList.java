@@ -23,6 +23,14 @@ public boolean status;
 			throw new Exception("Empty tasks");
 		return tasks.get(description);
 	}
+	public Task changeSpecificTask(String description,Task task) throws Exception{
+		Task task1=this.getTask(description);
+		task1.setDescription(description);
+		tasks.put(task1.getDescription(), task1);
+		return task1;
+		
+		
+	}
 	public Task removeTask(String description) throws Exception {
 		// Add code here
 		if(tasks.size()==0)
